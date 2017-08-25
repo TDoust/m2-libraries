@@ -16,11 +16,9 @@ To get up and rolling quickly, do this:
 
 Each of these Libraries adds functionality to M2 as summarized here:
 
- * `Arduino_Due_SD_HSCMI` Gives access to HSMCI (High Speed MultiMedia Card Interface) on M2. `SD_HSMCI` is support code that will also need to be in place.
+ * `M2_Due_SD_HSCMI` Gives access to HSMCI (High Speed MultiMedia Card Interface) on M2. `SD_HSMCI` is support code that will also need to be in place.
 
  * `LIN` LIN bus functionality for M2 on 2 channels
-
- * `SamNonDuePin` Gives M2 access to "non-Due" pins.
 
  * `SW_CAN` Single Wire CAN (GMLAN) give M2 signle-wire CAN functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sendind SW CAN messege. 
 
