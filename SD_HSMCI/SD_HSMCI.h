@@ -14,6 +14,8 @@
  * FatFs is Copyright (C) 2011, ChaN, all right reserved. - see the License text in the FatFs files
  *
  * tony@Think3dPrint3d
+
+ Modified for use with Macchina M2 Tony Doust
  *
  */
 
@@ -77,8 +79,8 @@
 	PIOA, ID_PIOA, PIO_PERIPH_A, PIO_PULLUP }
 
 #define PIN_HSMCI_CD {PIO_PC30, PIOC, ID_PIOC, PIO_INPUT, PIO_PULLUP}
-#define SD_MMC_0_CD_GPIO            72//(PIO_PB27_IDX) //Arduino digital pin 72
-#define SD_MMC_0_CD_GPIO_INSTRUMENT 13//(PIO_PB27_IDX) //Arduino digital pin 13
+#define SD_MMC_0_CD_GPIO            64//(PIO_PB27_IDX) //Macchina M2 digital pin 64
+#define SD_MMC_0_CD_GPIO_INSTRUMENT DS2//(PIO_PB27_IDX) //Macchina M2 digital pin Red_Led
 #define SD_MMC_0_CD_PIO_ID          ID_PIOA
 #define SD_MMC_0_CD_FLAGS           (PIO_INPUT | PIO_PULLUP)
 #define SD_MMC_0_CD_DETECT_VALUE    0
